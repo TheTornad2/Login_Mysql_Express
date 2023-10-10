@@ -1,0 +1,91 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para el encabezado */
+  h1 {
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para el párrafo del mensaje de error/success */
+  p {
+    color: red; /* Cambia a verde (#008000) para mensajes de éxito */
+    font-weight: bold;
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para etiquetas de formulario */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para campos de entrada */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el botón de inicio de sesión */
+  button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de inicio de sesión al pasar el ratón */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  /* Estilo para el botón de inicio de sesión */
+  button[type="button"] {
+    width: 100%;
+    background-color: gray;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de inicio de sesión al pasar el ratón */
+  button[type="button"]:hover {
+    background-color: darkgray;
+  }
+  
+  /* Estilo para los errores de validación (usar clases de estilo personalizado según sea necesario) */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
