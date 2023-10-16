@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Iniciar sesión</title>
-  <link rel="stylesheet" type="text/css" href="/loginStyle.css">
-
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" type="text/css" href="/register.css">
 </head>
 <body>
-  
-    <h1>hola</h1>
-   
-  
+    <div class="form-container">
+      <h1>Registro de Usuario</h1>
+      <form action="/register" method="POST">
+        <label for="usuario">Nombre:</label>
+        <input type="text" name="usuario" id="usuario" required>
+        <br>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" id="contraseña" required>
+        <br>
+        
+        <input type="submit" value="Registrar">
+        <h2>¿Ya tienes una cuenta? entonces da <a href="/login">Click Aquí</a></h2>
+      </form>
+    </div>
 </body>
 </html>

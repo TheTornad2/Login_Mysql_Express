@@ -20,6 +20,8 @@ app.use(express.static(join(__dirname, 'public')));
 app.use(morgan('dev'));
 // Rutas
 
+
+
 app.use(router);
 
 app.listen(port);

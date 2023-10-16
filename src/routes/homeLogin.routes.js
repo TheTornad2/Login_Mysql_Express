@@ -1,23 +1,18 @@
 import { Router } from 'express';
-import { register, login, postLogin } from '../controllers/controllers.js';
+import {
+  register,
+  login,
+  postLogin,
+  postRegister,
+  dashboard,
+} from '../controllers/controllers.js';
 const router = Router();
 
-let personas = [
-  {
-    id: 1,
-    nombre: 'Ayrton Bryant',
-  },
-  {
-    id: 2,
-    nombre: 'Wilbert Toribio',
-  },
-  {
-    id: 3,
-    nombre: 'Jesed PHP',
-  },
-];
+router.get('/dashboard', dashboard);
 
 router.get('/register', register);
+
+router.post('/register', postRegister);
 
 router.get('/login', login);
 
